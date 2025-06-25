@@ -23,12 +23,14 @@ h1 span {
 .dictionary {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 2rem;
   margin: 4rem auto;
   max-width: 90%;
 }
 
 .dictionary > .term {
+  flex: 1 1 20rem;
   text-align: center;
   max-width: 20rem;
   margin-bottom: 3rem;
